@@ -1,0 +1,21 @@
+{
+  "name": "Hello Texas Radio",
+  "short_name": "HTR",
+  "description": "Hello Texas Records Radio",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0A0808",
+  "theme_color": "#C41A1A",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/hello-texas-records-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/SteveP999/Hello-Texas-Records/main/hello-texas-records-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
