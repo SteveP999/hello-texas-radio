@@ -208,14 +208,15 @@ export const stations = [
     artistSite: "https://stevep999.github.io/Vincent-Cole/",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "Just Watch Me Walk Away",
-      artist: "Vincent Cole",
-      album: "The Cole Standard",
-      cover:
-        "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/vincent-cole-just-watch-me-walk-away-cover.png",
-      audioSrc:
-        "https://www.dropbox.com/scl/fi/gt5fe1l7mrp49u5jszvbi/vincent-cole-just-watch-me-walk-away-mastered-mp3-v4.mp3?rlkey=zooi7gl31kvkj0g3qts950ouw&raw=1",
-      duration: null
+  title: "Slow on My Lips",
+  artist: "Vincent Cole",
+  album: "The Cole Standard",
+  cover:
+    "https://www.dropbox.com/scl/fi/oizphqqxs09gegvzvo1d0/vincent-cole-slow-on-my-lips-cover.png?rlkey=y8v3nkminzdtwql2heptwst52&raw=1",
+  audioSrc:
+    "https://www.dropbox.com/scl/fi/6ubfl2avkxvzgo7d7j8qx/vincent-cole-slow-on-my-lips-mastered-mp3-v2.mp3?rlkey=8s8vscv78vvoyhfb7v38cwig1&raw=1",
+  duration: null
+},
     },
     tracks: [
       {
