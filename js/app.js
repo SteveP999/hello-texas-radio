@@ -19,26 +19,64 @@ import {
   stations
 } from "./stations.js";
 
-// Inject Stephen without rewriting the giant stations file 🛠️
-if (!stations.find((s) => s.id === "stephen-parsons")) {
-  stations.push({
-    id: "stephen-parsons",
-    frequency: 95.7,
-    slug: "stephen-parsons",
-    name: "Stephen Parsons",
-    shortName: "Stephen",
-    tagline: "Faith. Family. Songs that stay.",
-    genre: "Christian / Singer-Songwriter",
-    mood: "Warm, reflective, heartfelt",
-    description: "Songs about family, faith, grief, gratitude, and the people who shape us.",
-    theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons" },
-    heroImage: "https://www.dropbox.com/scl/fi/0j5fbn3ott28vhs3ke82i/stephen-parsons-rise-up-cover.png?rlkey=e46mzbgy8mjiwgncz7evzfott&raw=1",
-    artistSite: "https://stevep999.github.io/Stephen-Parsons/",
-    playlistUrl: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/radio.json",
-    primaryCtaLabel: "Artist Site"
-  });
-  stations.sort((a,b)=>a.frequency-b.frequency);
+function upsertStation(id, patch) {
+  const existing = stations.find((s) => s.id === id);
+  if (existing) {
+    Object.assign(existing, patch);
+  } else {
+    stations.push({ id, ...patch });
+  }
 }
+
+upsertStation("parsons-cross", {
+  frequency: 94.7,
+  slug: "parsons-cross",
+  name: "Parsons Cross Radio",
+  shortName: "Parsons Cross",
+  tagline: "Contemporary Christian and worship from Parsons Cross.",
+  genre: "Contemporary Christian / Worship",
+  mood: "Faithful, hopeful, worshipful",
+  description: "The Parsons Cross station, featuring the current Into the Light and Out of the Darkness catalog.",
+  theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons-cross" },
+  heroImage: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
+  artistSite: "https://stevep999.github.io/Parsons-Cross/",
+  playlistUrl: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/radio.json",
+  primaryCtaLabel: "Artist Site",
+  featuredTrack: {
+    title: "Circle the Wagons",
+    artist: "Parsons Cross",
+    album: "Into the Light",
+    cover: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
+    audioSrc: "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&raw=1",
+    duration: null
+  }
+});
+
+upsertStation("stephen-parsons", {
+  frequency: 104.1,
+  slug: "stephen-parsons",
+  name: "Stephen Parsons",
+  shortName: "Stephen",
+  tagline: "Faith. Family. Songs that stay.",
+  genre: "Christian / Singer-Songwriter",
+  mood: "Warm, reflective, heartfelt",
+  description: "Songs about family, faith, grief, gratitude, and the people who shape us.",
+  theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons" },
+  heroImage: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/covers/stephen-parsons-rise-up-cover.png",
+  artistSite: "https://stevep999.github.io/Stephen-Parsons/",
+  playlistUrl: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/radio.json",
+  primaryCtaLabel: "Artist Site",
+  featuredTrack: {
+    title: "Rise Up",
+    artist: "Stephen Parsons",
+    album: "Touches of the Heart",
+    cover: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/covers/stephen-parsons-rise-up-cover.png",
+    audioSrc: "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
+    duration: null
+  }
+});
+
+stations.sort((a, b) => a.frequency - b.frequency);
 
 function syncStickyLayout() {
   const topbar = document.querySelector(".topbar");
