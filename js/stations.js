@@ -217,15 +217,15 @@ export const stations = [
     "https://www.dropbox.com/scl/fi/6ubfl2avkxvzgo7d7j8qx/vincent-cole-slow-on-my-lips-mastered-mp3-v2.mp3?rlkey=8s8vscv78vvoyhfb7v38cwig1&raw=1",
   duration: null
 },
-    tracks: [
-  {
-  title: "Slow on My Lips",
-  album: "The Cole Standard",
-  cover:
-    "https://www.dropbox.com/scl/fi/oizphqqxs09gegvzvo1d0/vincent-cole-slow-on-my-lips-cover.png?rlkey=y8v3nkminzdtwql2heptwst52&raw=1",
-  audioSrc:
-    "https://www.dropbox.com/scl/fi/6ubfl2avkxvzgo7d7j8qx/vincent-cole-slow-on-my-lips-mastered-mp3-v2.mp3?rlkey=8s8vscv78vvoyhfb7v38cwig1&raw=1"
-},
+ tracks: [
+      {
+        title: "Slow on My Lips",
+        album: "The Cole Standard",
+        cover:
+          "https://www.dropbox.com/scl/fi/oizphqqxs09gegvzvo1d0/vincent-cole-slow-on-my-lips-cover.png?rlkey=y8v3nkminzdtwql2heptwst52&raw=1",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/6ubfl2avkxvzgo7d7j8qx/vincent-cole-slow-on-my-lips-mastered-mp3-v2.mp3?rlkey=8s8vscv78vvoyhfb7v38cwig1&raw=1"
+      },
       {
         title: "Last Call for Beautiful",
         album: "The Cole Standard",
