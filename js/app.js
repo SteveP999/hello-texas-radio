@@ -39,9 +39,10 @@ upsertStation("parsons-cross", {
   description: "The Parsons Cross station, featuring the current Into the Light and Out of the Darkness catalog.",
   theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons-cross" },
   heroImage: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
-  artistSite: "https://stevep999.github.io/Parsons-Cross/",
+  artistSite: "https://parsons-cross.hellotexasrecords.com",
   playlistUrl: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/radio.json",
   primaryCtaLabel: "Artist Site",
+  tracks: [],
   featuredTrack: {
     title: "Circle the Wagons",
     artist: "Parsons Cross",
@@ -62,15 +63,16 @@ upsertStation("stephen-parsons", {
   mood: "Warm, reflective, heartfelt",
   description: "Songs about family, faith, grief, gratitude, and the people who shape us.",
   theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons" },
-  heroImage: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/covers/stephen-parsons-rise-up-cover.png",
-  artistSite: "https://stevep999.github.io/Stephen-Parsons/",
-  playlistUrl: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/radio.json",
+  heroImage: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
+  artistSite: "https://stephen-parsons.hellotexasrecords.com",
+  playlistUrl: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/radio.json",
   primaryCtaLabel: "Artist Site",
+  tracks: [],
   featuredTrack: {
     title: "Rise Up",
     artist: "Stephen Parsons",
     album: "Touches of the Heart",
-    cover: "https://raw.githubusercontent.com/SteveP999/Stephen-Parsons/main/covers/stephen-parsons-rise-up-cover.png",
+    cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
     audioSrc: "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
     duration: null
   }

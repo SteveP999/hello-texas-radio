@@ -482,125 +482,77 @@ export const stations = [
     description:
       "A worship signal with weight. Songs for dark nights, stubborn faith, and light that refuses to leave.",
     theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons" },
-    heroImage: "/assets/stations/parsons-bg.jpg",
+    heroImage: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
     logo: "/assets/logos/parsons-cross.png",
-    artistSite: "https://stevep999.github.io/Parsons-Cross/",
+    artistSite: "https://parsons-cross.hellotexasrecords.com",
     playlistUrl: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "My Daughter's Heart",
+      title: "Circle the Wagons",
       artist: "Parsons Cross",
-      album: "Single",
+      album: "Into the Light",
       cover:
-        "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-my-daughters-heart.png",
+        "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/czv2skkkp8c3nggo8ngml/my-daughter-s-heart.mp3?rlkey=keaw0zy3n5zk60igwk8mchqc5&raw=1",
+        "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&raw=1",
       duration: null
     },
     tracks: [
       {
-        title: "Thank You Mom and Dad",
-        album: "Into the Light",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-thank-you-mom-and-dad-cover.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/09pimczovbjl5bbjqoxjf/parsons-cross-thank-you-mom-and-dad-mastered-MP3.mp3?rlkey=v5qac8t8s945oe016y1p2lnej&raw=1"
-      },
-      {
-        title: "Circle the Wagons",
-        album: "Into the Light",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-circle-the-wagons-cover.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&raw=1"
-      },
-      {
-        title: "Fear",
-        album: "Into the Light",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20Fear%20%28Album%20Cover%29.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/ikb0sypnk21azn3ukrdyp/Fear-V2-Mastered-MP3-v2.mp3?rlkey=2cwg1wnher8gt4gljnfvmee9y&raw=1"
-      },
-      {
         title: "Dark Nights of the Soul",
         album: "Out of the Darkness",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20Dark%20Nights%20of%20the%20Soul%20%28Cover%29%203000%20x%203000.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-dark-nights-of-the-soul-cover-streaming.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/lvy40kvrsreftclicsiie/The-Dark-Nights-of-the-Soul-NEW-VERSION-V3.mp3?rlkey=5lttcugp86qupyaqz4d9vaesr&st=gv8ux0p9&raw=1"
+          "https://www.dropbox.com/scl/fi/lvy40kvrsreftclicsiie/parsons-cross-dark-nights-of-the-soul-mp3.mp3?rlkey=5lttcugp86qupyaqz4d9vaesr&raw=1"
       },
       {
         title: "Keep the Son in Your Eyes",
         album: "Out of the Darkness",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20Keep%20the%20Son%20in%20Your%20Eyes%20%28Cover%29%203000%20x%203000.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-keep-the-son-in-your-eyes-cover-streaming.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/6futa7hyqu7v61rntvsed/Parsons-Cross-Keep-the-Son-in-Your-Eyes-Released-MP3.mp3?rlkey=tiyf5zck33e0zryg4v8cet64z&raw=1"
+          "https://www.dropbox.com/scl/fi/6futa7hyqu7v61rntvsed/parsons-cross-keep-the-son-in-your-eyes-mp3.mp3?rlkey=tiyf5zck33e0zryg4v8cet64z&raw=1"
       },
       {
         title: "Touching Heaven",
         album: "Out of the Darkness",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20Touching%20Heaven%20%28Cover%29%203000%20x%203000.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-touching-heaven-cover-streaming.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/lsd40kwdipq0sxds5yf7o/Parsons-Cross-Touching-Heaven-Released-MP3.mp3?rlkey=yleeswhf1tdhrtxeee43z5mye&raw=1"
-      },
-      {
-        title: "Thick & Thin",
-        album: "Out of the Darkness",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/thick-and-thin-cover.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/9nxrgic5bpxagygdhgunh/Parsons-Cross-Thick-Thin-Mastered-MP3-v2.mp3?rlkey=s5x9s5kdfb0lnnxywo46n266w&raw=1"
+          "https://www.dropbox.com/scl/fi/lsd40kwdipq0sxds5yf7o/parsons-cross-touching-heaven-mp3.mp3?rlkey=yleeswhf1tdhrtxeee43z5mye&raw=1"
       },
       {
         title: "You Haven't Moved",
         album: "Out of the Darkness",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20You%20Haven%27t%20Moved%20%28Cover%29%203000%20x%203000.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-you-havent-moved-cover-streaming.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/5zuhf9wresbop4tup7i0j/Parsons-Cross-You-Haven-t-Moved-Mastered-MP3.mp3?rlkey=2kry0k6wqz9ohdnv9hr24c3b8&raw=1"
+          "https://www.dropbox.com/scl/fi/5zuhf9wresbop4tup7i0j/parsons-cross-you-havent-moved-mp3.mp3?rlkey=2kry0k6wqz9ohdnv9hr24c3b8&raw=1"
+      },
+      {
+        title: "Thick & Thin",
+        album: "Out of the Darkness",
+        cover:
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-thick-and-thin-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/9nxrgic5bpxagygdhgunh/parsons-cross-thick-and-thin-mp3.mp3?rlkey=s5x9s5kdfb0lnnxywo46n266w&raw=1"
       },
       {
         title: "The Waiting Room",
         album: "Into the Light",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/Parsons%20Cross%20-%20The%20Waiting%20Room%20%28Cover%29%203000%20x%203000.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-the-waiting-room-cover-streaming.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/9j3cp9ajsd513fpjro3wo/Parsons-Cross-The-Waiting-Room-Released-MP3.mp3?rlkey=9i3suos4ja4o5kalph8pipnd8&st=30i60r8o&raw=1"
+          "https://www.dropbox.com/scl/fi/9j3cp9ajsd513fpjro3wo/parsons-cross-the-waiting-room-mp3.mp3?rlkey=9i3suos4ja4o5kalph8pipnd8&raw=1"
       },
       {
-        title: "My Daughter's Heart",
-        album: "Single",
+        title: "Fear",
+        album: "Into the Light",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-my-daughters-heart.png",
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-fear-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/czv2skkkp8c3nggo8ngml/my-daughter-s-heart.mp3?rlkey=keaw0zy3n5zk60igwk8mchqc5&raw=1"
-      },
-      {
-        title: "Mom's Love",
-        album: "Single",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-moms-love.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/wq193142bjg3hmsamouke/mom-s-love.mp3?rlkey=rmj7vntmwxkodhicmi8bzxpuu&raw=1"
-      },
-      {
-        title: "Debbie's Love Goes On",
-        album: "Single",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-debbies-love-goes-on-cover.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fi/6m8q9cm1ejsjr1afpco2g/debbie-s-love-goes-on.mp3?rlkey=93fz1f438mxkerbfcwnekq2ud&raw=1"
-      },
-      {
-        title: "I Come Back Home",
-        album: "Single",
-        cover:
-          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/parsons-cross-i-come-back-home-cover.png",
-        audioSrc:
-          "https://www.dropbox.com/scl/fo/midxhc415t2o8e21m1hmu/APdUvbj3PthtYx8TpJLb61o?rlkey=bga6bnp38jeae7hfilnl5fbg2&raw=1"
+          "https://www.dropbox.com/scl/fi/tydai7q6rknk94n1d7wtg/parsons-cross-fear-mp3.mp3?rlkey=7lqwoswtpsob6em8eqd0qo1ay&raw=1"
       }
     ]
   },
@@ -929,69 +881,77 @@ export const stations = [
     id: "stephen-parsons",
     frequency: 104.1,
     slug: "stephen-parsons",
-    name: "SParsons",
-    shortName: "SParsons",
+    name: "Stephen Parsons",
+    shortName: "Stephen",
     tagline: "Songs from the heart, straight to the soul.",
     genre: "Christian / Singer-Songwriter",
     mood: "Warm, faithful, intimate, heartfelt",
     description:
       "Stephen Parsons on his own frequency. Personal, prayerful, and rooted in faith — songs written for the people who matter most.",
     theme: { accent: "#C9A87A", glow: "rgba(201,168,122,0.35)", bgClass: "theme-stephen-parsons" },
-    heroImage: "/assets/stations/stephen-parsons-bg.jpg",
+    heroImage: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
     logo: "/assets/logos/stephen-parsons.png",
     artistSite: "https://stephen-parsons.hellotexasrecords.com",
+    playlistUrl: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
       title: "Rise Up",
       artist: "Stephen Parsons",
-      album: "Touched From the Heart",
-      cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-rise-up-cover.png",
+      album: "Touches of the Heart",
+      cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-bender-rise-up.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
+        "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
       duration: null
     },
     tracks: [
       {
-        title: "My Daughter's Heart",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        title: "Thank You Mom and Dad",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-thank-you-mom-and-dad-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/czv2skkkp8c3nggo8ngml/my-daughter-s-heart.mp3?rlkey=keaw0zy3n5zk60igwk8mchqc5&raw=1"
+          "https://www.dropbox.com/scl/fi/09pimczovbjl5bbjqoxjf/stephen-parsons-thank-you-mom-and-dad-mp3.mp3?rlkey=v5qac8t8s945oe016y1p2lnej&raw=1"
+      },
+      {
+        title: "Run to His Heart",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-run-to-his-heart-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/k18bdosdhrhi0kggek6q0/stephen-parsons-run-to-his-heart-mp3.mp3?rlkey=2xp47q5q2ysrsgke184sx8rau&raw=1"
       },
       {
         title: "Wide Open Silence",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-wide-open-silence-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/4wt3mx9s3woo05d7ff5ei/parsons-cross-wide-open-silence-mp3.mp3?rlkey=xak7nxx0xb0s9ivrn6azgpbt8&raw=1"
+          "https://www.dropbox.com/scl/fi/4wt3mx9s3woo05d7ff5ei/stephen-parsons-wide-open-silence-mp3.mp3?rlkey=xak7nxx0xb0s9ivrn6azgpbt8&raw=1"
       },
       {
-        title: "Thank You Mom and Dad",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        title: "Love for Eternity",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-love-for-eternity-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/09pimczovbjl5bbjqoxjf/parsons-cross-thank-you-mom-and-dad-mastered-MP3.mp3?rlkey=v5qac8t8s945oe016y1p2lnej&raw=1"
+          "https://www.dropbox.com/scl/fi/ykzghssn5bi44z14r0fhb/stephen-parsons-love-for-eternity-mp3.mp3?rlkey=71rtz64wtlfemaydj937xtel9&raw=1"
       },
       {
         title: "Mom's Love",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-moms-love-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/wq193142bjg3hmsamouke/mom-s-love.mp3?rlkey=rmj7vntmwxkodhicmi8bzxpuu&raw=1"
+          "https://www.dropbox.com/scl/fi/hz1ptkb0eyj06hxe34jvi/stephen-parsons-moms-love-mp3.mp3?rlkey=n4h4u0b64mikukb5inkomx6am&raw=1"
       },
       {
-        title: "Debbie's Love Goes On",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        title: "Done With The Damage",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-done-with-the-damage-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/6m8q9cm1ejsjr1afpco2g/debbie-s-love-goes-on.mp3?rlkey=93fz1f438mxkerbfcwnekq2ud&raw=1"
+          "https://www.dropbox.com/scl/fi/oww767j5mv9zhebw4qnqh/stephen-parsons-done-with-the-damage.mp3.mp3?rlkey=m50njubs1y0k40ijrttlkw1ts&raw=1"
       },
       {
-        title: "I Come Back Home",
-        album: "Touched From the Heart",
-        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/stephen-parsons-touched-from-the-heart-cover.png",
+        title: "My Daughter's Heart",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-my-daughters-heart-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fo/midxhc415t2o8e21m1hmu/APdUvbj3PthtYx8TpJLb61o?rlkey=bga6bnp38jeae7hfilnl5fbg2&raw=1"
+          "https://www.dropbox.com/scl/fi/czv2skkkp8c3nggo8ngml/stephen-parsons-my-daughters-heart-mp3.mp3?rlkey=keaw0zy3n5zk60igwk8mchqc5&raw=1"
       }
     ]
   },
