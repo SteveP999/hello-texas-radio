@@ -1167,6 +1167,44 @@ export const stations = [
           "https://www.dropbox.com/scl/fi/h78uz069co3qihjn5a8c1/silent-oblivion-surfin-mastered-mp3.mp3?rlkey=qzee0gdurw8j8z4etd63jbdmd&raw=1"
       }
     ]
+  },
+  // ── Night Shift ──────────────────────────────────────────────
+  {
+    id: "night-shift",
+    frequency: 93.9,
+    slug: "night-shift",
+    name: "Night Shift",
+    shortName: "Night Shift",
+    tagline: "Loud nights. No rules.",
+    genre: "Rock / Hard Rock / Classic Rock",
+    mood: "High energy, gritty, electric, after-hours",
+    description:
+      "Raw, loud, and unapologetic. Night Shift brings hard rock swagger and classic rock attitude straight to your speakers.",
+    theme: { accent: "#CC2200", glow: "rgba(204,34,0,0.35)", bgClass: "theme-night-shift" },
+    heroImage: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/night-shift-band-photo-no-text.png",
+    logo: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/night-shift-logo-transparent-background.png",
+    artistSite: "https://night-shift.hellotexasrecords.com",
+    playlistUrl: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/radio.json",
+    primaryCtaLabel: "Artist Site",
+    featuredTrack: {
+      title: "Turn Me Up",
+      artist: "Night Shift",
+      album: "No Rules Tonight",
+      cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-turn-me-up-cover.png",
+      audioSrc:
+        "https://www.dropbox.com/scl/fi/ncplflnsdo9cp4o5ldgn3/night-shift-turn-me-up-mp3.mp3?rlkey=1w1zljwrr2y901ti1unhppdnw&raw=1",
+      duration: null
+    },
+    tracks: [
+      {
+        title: "No Rules Tonight",
+        artist: "Night Shift",
+        album: "No Rules Tonight",
+        cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-no-rules-tonight-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/y095y6udugo5czzvwjk9a/night-shift-no-rules-tonight-mp3.mp3?rlkey=jf20t7501lnj4e3ywn1do39ko&raw=1"
+      }
+    ]
   }
 ];
 
