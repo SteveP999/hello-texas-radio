@@ -490,22 +490,30 @@ export const stations = [
     description:
       "A worship signal with weight. Songs for dark nights, stubborn faith, and light that refuses to leave.",
     theme: { accent: "#c9a46c", glow: "rgba(201,164,108,0.35)", bgClass: "theme-parsons" },
-    heroImage: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
+    heroImage: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-lost-wheres-god-cover.png",
     logo: "/assets/logos/parsons-cross.png",
     artistSite: "https://parsons-cross.hellotexasrecords.com",
     playlistUrl: "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "Circle the Wagons",
+      title: "Lost (Where's God)",
       artist: "Parsons Cross",
       album: "Into the Light",
       cover:
-        "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
+        "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-lost-wheres-god-cover.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&raw=1",
+        "https://www.dropbox.com/scl/fi/aucayb7h1iimytjaxapwo/parsons-cross-lost-wheres-god-mp3.mp3?rlkey=fbxd0i8l4hax25r4k6f4fk65s&raw=1",
       duration: null
     },
     tracks: [
+      {
+        title: "Circle the Wagons",
+        album: "Into the Light",
+        cover:
+          "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/covers/parsons-cross-circle-the-wagons-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&raw=1"
+      },
       {
         title: "Dark Nights of the Soul",
         album: "Out of the Darkness",
