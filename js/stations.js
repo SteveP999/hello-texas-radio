@@ -208,23 +208,31 @@ export const stations = [
     artistSite: "https://stevep999.github.io/Vincent-Cole/",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "The Last Song",
+      title: "Too Late To Behave",
       artist: "Vincent Cole",
       album: "The Cole Standard",
       cover:
-        "https://www.dropbox.com/scl/fi/vlreanqhhge4y07c5eao7/vincent-cole-the-last-song-cover.png?rlkey=t8j8vlhhvzke7bzp2rwypfrc3&st=0cfjnf98&raw=1",
+        "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/covers/vincent-cole-too-late-to-behave-cover.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mastered-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&st=enh97ke4&raw=1",
+        "https://www.dropbox.com/scl/fi/wvym3juow40a76gor19hu/vincent-cole-too-late-to-behave-mp3.mp3?rlkey=2gu6hybeu8y49mwdqoea71yhv&raw=1",
       duration: null
     },
- tracks: [
+    tracks: [
+      {
+        title: "Too Late To Behave",
+        album: "The Cole Standard",
+        cover:
+          "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/covers/vincent-cole-too-late-to-behave-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/wvym3juow40a76gor19hu/vincent-cole-too-late-to-behave-mp3.mp3?rlkey=2gu6hybeu8y49mwdqoea71yhv&raw=1"
+      },
       {
         title: "The Last Song",
         album: "The Cole Standard",
         cover:
-          "https://www.dropbox.com/scl/fi/vlreanqhhge4y07c5eao7/vincent-cole-the-last-song-cover.png?rlkey=t8j8vlhhvzke7bzp2rwypfrc3&st=0cfjnf98&raw=1",
+          "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/covers/vincent-cole-the-last-song-cover.png",
         audioSrc:
-          "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mastered-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&st=enh97ke4&raw=1"
+          "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&raw=1"
       },
       {
         title: "Slow on My Lips",
