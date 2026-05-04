@@ -911,12 +911,12 @@ export const stations = [
     playlistUrl: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "Rise Up",
+      title: "Calling in the Silence",
       artist: "Stephen Parsons",
       album: "Touches of the Heart",
-      cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
+      cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-calling-in-the-silence.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
+        "https://www.dropbox.com/scl/fi/qifps9vrox4dbkrsf4k5u/stephen-parsons-calling-in-the-silence-mp3.mp3?rlkey=7zz2iut6s3n23sbf8q23rot2s&raw=1",
       duration: null
     },
     tracks: [
@@ -926,6 +926,13 @@ export const stations = [
         cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-thank-you-mom-and-dad-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/09pimczovbjl5bbjqoxjf/stephen-parsons-thank-you-mom-and-dad-mp3.mp3?rlkey=v5qac8t8s945oe016y1p2lnej&raw=1"
+      },
+      {
+        title: "Rise Up",
+        album: "Touches of the Heart",
+        cover: "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/covers/stephen-parsons-rise-up-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1"
       },
       {
         title: "Run to His Heart",
