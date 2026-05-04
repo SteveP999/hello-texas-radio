@@ -1203,12 +1203,12 @@ export const stations = [
     playlistUrl: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
-      title: "Turn Me Up",
+      title: "Housefire",
       artist: "Night Shift",
       album: "No Rules Tonight",
-      cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-turn-me-up-cover.png",
+      cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-housefire-cover.png",
       audioSrc:
-        "https://www.dropbox.com/scl/fi/ncplflnsdo9cp4o5ldgn3/night-shift-turn-me-up-mp3.mp3?rlkey=1w1zljwrr2y901ti1unhppdnw&raw=1",
+        "https://www.dropbox.com/scl/fi/begi3v87qfg2qdotlfw9c/night-shift-housefire-mp3.mp3?rlkey=u9p4rmbuzqcmtfy3moa821co3&raw=1",
       duration: null
     },
     tracks: [
@@ -1219,6 +1219,14 @@ export const stations = [
         cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-no-rules-tonight-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/y095y6udugo5czzvwjk9a/night-shift-no-rules-tonight-mp3.mp3?rlkey=jf20t7501lnj4e3ywn1do39ko&raw=1"
+      },
+      {
+        title: "Turn Me Up",
+        artist: "Night Shift",
+        album: "No Rules Tonight",
+        cover: "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/covers/night-shift-turn-me-up-cover.png",
+        audioSrc:
+          "https://www.dropbox.com/scl/fi/ncplflnsdo9cp4o5ldgn3/night-shift-turn-me-up-mp3.mp3?rlkey=1w1zljwrr2y901ti1unhppdnw&raw=1"
       }
     ]
   }
