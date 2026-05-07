@@ -694,7 +694,7 @@ export const stations = [
       title: "Too Loud",
       artist: "Vanta",
       album: "Signal",
-      cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/Vanta%20-%20Too%20Loud%20-%20Album%20Cover.png",
+      cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/covers/vanta-too-loud-cover.png",
       audioSrc:
         "https://www.dropbox.com/scl/fi/4228evr7l0qrs0kegwzty/Too-Loud-Mastered-MP3.mp3?rlkey=pw5icqqci9xf6cj36iqarmkdj&raw=1",
       duration: null
@@ -703,21 +703,21 @@ export const stations = [
       {
         title: "Don't Need Permission",
         album: "Signal",
-        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/Don%27t%20Need%20Permission%20-%20Album%20Cover.png",
+        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/covers/vanta-dont-need-permission-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/7autvxh8dd3aaktvz3vm1/Vanta-Don-t-Need-Permission-Mastered-MP3.mp3?rlkey=505p9f0jnfsg3wau3tpzscbat&st=lm80c6pr&raw=1"
       },
       {
         title: "Cut the Line",
         album: "Signal",
-        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/Cut%20the%20line%20%28Album%20Cover%29.png",
+        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/covers/vanta-cut-the-line-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/kpqpw6x42mlhcn2gtgqka/Cut-the-Line-Mastered-MP3.mp3?rlkey=p98ux0qljqvko46toju9qm125&st=ytznhy0t&raw=1"
       },
       {
         title: "Dirty Signal",
         album: "Signal",
-        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/Vanta%20-%20Dirty%20Signal%20%28Album%20Cover%29.png",
+        cover: "https://raw.githubusercontent.com/SteveP999/vanta/main/covers/vanta-dirty-signal-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/3ukillkac5wjphdvwwzqg/Dirty-Signal-Mastered-MP3.mp3?rlkey=kf5z5f79k89mnnui3yp096w6b&st=h99jq8tl&raw=1"
       }
@@ -1027,9 +1027,9 @@ export const stations = [
     featuredTrack: {
       title: "Signal Locked",
       artist: "PULSE7",
-      album: "Signal Locked",
+      album: "Endless Echo",
       cover:
-        "https://raw.githubusercontent.com/SteveP999/pulse7/main/pulse7-signal-locked-cover.png",
+        "https://raw.githubusercontent.com/SteveP999/pulse7/main/covers/pulse7-signal-locked-cover.png",
       audioSrc:
         "https://www.dropbox.com/scl/fi/49isq5ehrm5fxftjgbbdt/PULSE7-Signal-Locked-Mastered-MP3.mp3?rlkey=ewxlecqcld0za18lgj3e4nylb&raw=1",
       duration: null
@@ -1038,18 +1038,18 @@ export const stations = [
       {
         title: "Two Nights",
         artist: "PULSE7",
-        album: "Signal Locked",
+        album: "Endless Echo",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/pulse7/main/pulse7-two-nights-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/pulse7/main/covers/pulse7-two-nights-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1"
       },
       {
         title: "We Don't Miss",
         artist: "PULSE7",
-        album: "Signal Locked",
+        album: "Endless Echo",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/pulse7/main/pulse7-we-dont-miss-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/pulse7/main/covers/pulse7-we-dont-miss-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/ebabtss62r3ykf9p2f7s2/We-Don-t-Miss-Mastered-MP3.mp3?rlkey=b0vf9u40fw7guqel1c1ztu460&raw=1"
       }
@@ -1076,7 +1076,7 @@ export const stations = [
       title: "Midnight Line",
       artist: "Rio Valencia",
       album: "Midnight Line",
-      cover: "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/rio-valencia-midnight-line-cover.png",
+      cover: "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/covers/rio-valencia-midnight-line-cover.png",
       audioSrc:
         "https://www.dropbox.com/scl/fi/tqb3ft2xifve6ovysxuaw/Midight-Line-Mastered-MP3.mp3?rlkey=2z4vel6o30i858b9akegrfd35&raw=1",
       duration: null
@@ -1086,7 +1086,7 @@ export const stations = [
         title: "No Control",
         album: "Midnight Line",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/rio-valencia-no-control-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/covers/rio-valencia-no-control-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/xl6id8cftbsvrqpsueehx/No-Control-Mastered-MP3.mp3?rlkey=4vxmg9u10jckquwf5xkloccq0&raw=1"
       },
@@ -1094,7 +1094,7 @@ export const stations = [
         title: "No Te Vas",
         album: "Midnight Line",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/rio-valencia-no-te-vas-you-dont-leave-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/covers/rio-valencia-no-te-vas-you-dont-leave-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/1etgax05sxjqo2m55h78v/No-Te-Vas-You-Don-t-Leave-Mastered-MP3.mp3?rlkey=0e3ue4n3vhpl9uppv3nzh8v33&raw=1"
       },
@@ -1102,7 +1102,7 @@ export const stations = [
         title: "Sin Regresar",
         album: "Midnight Line",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/rio-valencia-sin-regresar-no-going-back-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/covers/rio-valencia-sin-regresar-no-going-back-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/4dqf8e3lbstvxzvjn5wt9/Sin-Regresar-No-Going-Back-Mastered-MP3-Re-do.mp3?rlkey=j5923sohwcu4dvbtgsdxj4w82&raw=1"
       }
@@ -1131,7 +1131,7 @@ export const stations = [
       artist: "Skyline Theory",
       album: "Bending Reality",
       cover:
-        "https://raw.githubusercontent.com/SteveP999/Skyline-Theory/main/skyline-theory-when-the-world-goes-quiet-cover.png",
+        "https://raw.githubusercontent.com/SteveP999/Skyline-Theory/main/covers/skyline-theory-when-the-world-goes-quiet-cover.png",
       audioSrc:
         "https://www.dropbox.com/scl/fi/nc9vds0ee7bvr29wtdj7k/When-the-World-Goes-Quiet-Mastered-MP3.mp3?rlkey=7srnvab42k2xdandp2a7j224j&raw=1",
       duration: null
@@ -1153,13 +1153,14 @@ export const stations = [
     heroImage: "/assets/stations/silent-bg.jpg",
     logo: "/assets/logos/silent-oblivion.png",
     artistSite: "https://stevep999.github.io/Silent-Oblivion/",
+    playlistUrl: "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/radio.json",
     primaryCtaLabel: "Artist Site",
     featuredTrack: {
       title: "Lift Off (With a Bang)",
       artist: "Silent Oblivion",
-      album: "Single",
+      album: "Beginnings Past",
       cover:
-        "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/silent-oblivion-lift-off-cover.png",
+        "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/covers/silent-oblivion-lift-off-cover.png",
       audioSrc:
         "https://www.dropbox.com/scl/fi/tctbe476glsb4mu3hv7k7/Lift-Off-With-a-Bang-Mastered-MP3.mp3?rlkey=2dt2a3mayzne6l1lff1jf3t00&raw=1",
       duration: null
@@ -1169,7 +1170,7 @@ export const stations = [
         title: "Lip Gloss Ghost",
         album: "Beginnings Past",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/silent-oblivion-lip-gloss-ghost-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/covers/silent-oblivion-lip-gloss-ghost-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/j087cbyzyv8jh89ifcc4o/silent-oblivion-lip-gloss-ghost-mastered-MP3.mp3?rlkey=u3a79co0vb1qee24142goud4f&raw=1"
       },
@@ -1177,7 +1178,7 @@ export const stations = [
         title: "Cruisin",
         album: "Beginnings Past",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/silent-oblivion-cruisin-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/covers/silent-oblivion-cruisin-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/9pvkuega75b3cvyrv4aiw/silent-oblivion-cruisin-mastered-mp3.mp3?rlkey=zc46e28eaj60ia8dxdxilyr2m&raw=1"
       },
@@ -1185,7 +1186,7 @@ export const stations = [
         title: "Surfin",
         album: "Beginnings Past",
         cover:
-          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/silent-oblivion-surfin-cover.png",
+          "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/covers/silent-oblivion-surfin-cover.png",
         audioSrc:
           "https://www.dropbox.com/scl/fi/h78uz069co3qihjn5a8c1/silent-oblivion-surfin-mastered-mp3.mp3?rlkey=qzee0gdurw8j8z4etd63jbdmd&raw=1"
       }
